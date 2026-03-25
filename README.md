@@ -10,6 +10,8 @@ Use it at your own risk.
 To compile the program you will need libsodium library (their website: https://libsodium.gitbook.io/doc).
 For Windows users I recommend to compile using Visual Studio or MINGW64.
 
-The exe's were compiled and tested on my own machine.
+The exe's were compiled and tested on my own machine (I have a dual-boot Windows 11 and Linux Mint).
+On Mint I gave this command: gcc -o PasswdCLI_linux_x64 PasswdCLI.c -Wall -Wextra -pedantic -lsodium -O2 -static
+On Windows I used Visual Studio Community.
 
 This program is distributed under the GNU GPL V3.0 license.
