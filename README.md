@@ -10,6 +10,7 @@ This program uses AES cryptography to encrypt your passwords in a file named "pa
 
 This program will require you a startup password (which will be used to create a unique hash saved in "master.dat" used to verify if the startup password is correct) that you can create by your own, but remember it! In fact you have 6 attempts to type the correct password at the start of the program, otherwise the whole database will be deleted and everything will start again from zero.
 
+Both "password.dat" and "master.dat" are set in read only mode. It works on Linux and I'm trying to figure out how to make it work properly even on Windows.
 
 To compile the program you will need libsodium library (their website: https://libsodium.gitbook.io/doc).
 For Windows users I recommend to compile using Visual Studio or MINGW64.
